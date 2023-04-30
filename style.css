@@ -541,7 +541,7 @@ a {
     cursor: pointer;
     color: #C7A987;
 } */
-
+/* 
 .section6 {
     color: white;
     display: flex;
@@ -606,6 +606,88 @@ a {
   
   .socialIcons a:hover {
     color: #C7A987;
+  }
+   */
+
+   .section6 {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: rgb(15, 15, 15);
+  }
+  
+  .bottomLogo img {
+    width: 100px;
+  }
+  
+  .logoColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+  }
+  
+  .aboutUsColumn,
+  .bookingColumn,
+  .socialsColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 26%;
+  }
+  
+  .aboutUsColumn h2,
+  .bookingColumn h2,
+  .socialsColumn h2 {
+    text-decoration: underline;
+    text-decoration-color: #C7A987;
+    text-underline-offset: 4px;
+  }
+  
+  .aboutUsColumn h4,
+  .bookingColumn h4,
+  .socialsColumn h4 {
+    transition: all 0.5s ease;
+  }
+  
+  .aboutUsColumn h4:hover,
+  .bookingColumn h4:hover,
+  .socialsColumn h4:hover {
+    cursor: pointer;
+    color: #C7A987;
+  }
+  
+  .socialIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .socialIcons a {
+    color: white;
+    font-size: 2rem;
+    transition: all 0.5s ease;
+  }
+  
+  .socialIcons a:hover {
+    color: #C7A987;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes spin {
+     0% {
+        transform: rotate(0deg);
+     }
+     100% {
+        transform: rotate(360deg);
+     }
   }
   
 
