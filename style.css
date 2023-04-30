@@ -154,6 +154,7 @@ a {
 .navSearch .fas:hover {
     animation: spin 2s infinite linear, glow 1s infinite alternate;
     color: #FBB829;
+    outline: none;
 }
 @keyframes spin {
     0% {
@@ -168,13 +169,13 @@ a {
 }
 @keyframes glow {
     0% {
-        box-shadow: 0 0 0 0 #C7A987;
+        box-shadow: none;
     }
     50% {
         box-shadow: 0 0 10px 5px #FBB829;
     }
     100% {
-        box-shadow: 0 0 0 0 #C7A987;
+        box-shadow: none;
     }
 }
 
