@@ -699,6 +699,7 @@ option {
     height: 800px;
     filter: brightness(70%);
     /* border: 1px solid #C7A987; */
+    border: 1px solid rgba(199, 169, 135, 0.3);
     position: relative;
     z-index: 0;
   }
