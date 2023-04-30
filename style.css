@@ -128,10 +128,12 @@ a {
     position: relative;  
     /* add a relative position to the parent element */
 }
-/* .exploreTitle h2:hover {
+.exploreTitle h2:hover {
     cursor: pointer;
     background-color: #C7A987;
-} */
+}
+
+
 
 
 
