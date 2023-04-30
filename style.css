@@ -145,17 +145,20 @@ a {
     cursor: pointer;
 } */
 
+
 .navSearch .fas {
     font-size: 1.5rem;
     color: #C7A987;
     cursor: pointer;
     transition: all 0.5s ease;
 }
+
 .navSearch .fas:hover {
     animation: spin 2s infinite linear, glow 1s infinite alternate;
-    color: #FBB829;
+    color: #E2C59C;
     outline: none;
 }
+
 @keyframes spin {
     0% {
         transform: rotate(0deg) translateX(0);
@@ -167,20 +170,18 @@ a {
         transform: rotate(360deg) translateX(0);
     }
 }
+
 @keyframes glow {
     0% {
         box-shadow: none;
     }
     50% {
-        box-shadow: 0 0 10px 5px #FBB829;
+        box-shadow: 0 0 15px 10px rgba(247, 198, 85, 0.5);
     }
     100% {
         box-shadow: none;
     }
 }
-
-        
-    
     
 
 .exploreTitle {
