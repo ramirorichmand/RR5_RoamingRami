@@ -545,57 +545,66 @@ a {
 .section6 {
     color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 3rem;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(15, 15, 15);    
   }
   
   .bottomLogo img {
     width: 100px;
   }
   
-  .listSection {
+  .logoColumn {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
-    width: auto;
+    width: 20%;
   }
   
-  .listSection h2 {
+  .aboutUsColumn,
+  .bookingColumn,
+  .socialsColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 26%;
+  }
+  
+  .aboutUsColumn h2,
+  .bookingColumn h2,
+  .socialsColumn h2 {
     text-decoration: underline;
     text-decoration-color: #C7A987;
     text-underline-offset: 4px;
   }
   
-  .listSection h4 {
+  .aboutUsColumn h4,
+  .bookingColumn h4,
+  .socialsColumn h4 {
     transition: all 0.5s ease;
   }
   
-  .listSection h4:hover {
+  .aboutUsColumn h4:hover,
+  .bookingColumn h4:hover,
+  .socialsColumn h4:hover {
     cursor: pointer;
     color: #C7A987;
   }
   
   .socialIcons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    gap: 20px;
   }
   
   .socialIcons a {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    transition: all 0.5s ease;
+    color: white;
+    font-size: 2rem;
   }
   
   .socialIcons a:hover {
-    cursor: pointer;
     color: #C7A987;
   }
   
