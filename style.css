@@ -87,7 +87,7 @@ a {
     color: white;
     margin-top: 2.5rem;
 }
-.navSearch h4 {
+/* .navSearch h4 {
     transition: all 0.5s ease;
     font-weight: lighter;
     border: 2px solid #C7A987;
@@ -100,7 +100,43 @@ a {
 .navSearch h4 {
     border-radius: 10px;
     padding: 5px;
+} */
+
+.navSearch h4 {
+    font-weight: lighter;
+    border: 2px solid #C7A987;
+    border-radius: 10px;
+    padding: 5px;
+    position: relative;
 }
+
+.navSearch h4:before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(
+        to right,
+        rgba(199, 169, 135, 0),
+        rgba(199, 169, 135, 0.5),
+        rgba(199, 169, 135, 0)
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.navSearch h4:hover:before {
+    opacity: 1;
+}
+
+.navSearch h4:hover {
+    color: #C7A987;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
 
 .navSearch .fas {
     font-size: 1.5rem;
