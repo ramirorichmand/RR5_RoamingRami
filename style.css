@@ -509,7 +509,7 @@ a {
 
 /* Section 6 */
 
-.section6 {
+/* .section6 {
     color: white;
     display: flex;
     justify-content: space-around;
@@ -540,7 +540,65 @@ a {
 .listSection h4:hover {
     cursor: pointer;
     color: #C7A987;
-}
+} */
+
+.section6 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: rgb(15, 15, 15);
+  }
+  
+  .bottomLogo img {
+    width: 100px;
+  }
+  
+  .listSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: auto;
+  }
+  
+  .listSection h2 {
+    text-decoration: underline;
+    text-decoration-color: #C7A987;
+    text-underline-offset: 4px;
+  }
+  
+  .listSection h4 {
+    transition: all 0.5s ease;
+  }
+  
+  .listSection h4:hover {
+    cursor: pointer;
+    color: #C7A987;
+  }
+  
+  .socialIcons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .socialIcons a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.5s ease;
+  }
+  
+  .socialIcons a:hover {
+    cursor: pointer;
+    color: #C7A987;
+  }
+  
 
 
 /* Flights Page */
