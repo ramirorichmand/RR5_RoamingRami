@@ -171,9 +171,11 @@ a {
 .exploreTitle h1 {
     font-size: 3rem;
     font-weight: lighter;
-    font-family: 'Maven Pro', sans-serif;
-
+    font-family: 'Maven Pro', sans-serif; 
 }
+
+
+
 .exploreTitle h2 {
     margin-top: 2.5rem;
     font-size: 2rem;
