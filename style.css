@@ -131,10 +131,21 @@ a {
     background-color: #C7A987;
 } */
 
+
 .exploreTitle h2:hover {
     cursor: pointer;
     background-color: #C7A987;
-    box-shadow: 0 0 10px 5px #C7A987;
+    animation: shimmer 1s ease-out forwards;
+    box-shadow: 0px 0px 20px #C7A987;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
 }
 
 
