@@ -704,20 +704,14 @@ option {
     z-index: 0;
   } */
 
-
   #background-video {
     object-fit: cover;
     width: 100%;
     height: 800px;
     filter: brightness(70%);
-    border: 1px solid rgba(199, 169, 135, 0);
+    border: none;
     position: relative;
     z-index: 0;
-    transition: border-color 0.5s ease;
-  }
-  
-  #background-video:hover {
-    border-color: #C7A987;
   }
   
   #background-video::before {
