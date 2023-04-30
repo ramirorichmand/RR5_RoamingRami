@@ -139,11 +139,40 @@ a {
 
 
 /* navSearch fas */
+/* .navSearch .fas {
+    font-size: 1.5rem;
+    color: #C7A987;
+    cursor: pointer;
+} */
+
 .navSearch .fas {
     font-size: 1.5rem;
     color: #C7A987;
     cursor: pointer;
-}
+    transition: all 0.5s ease;
+    }
+    
+    .navSearch .fas:hover {
+    animation: spin 2s infinite linear;
+    }
+    
+    @keyframes spin {
+    0% {
+    transform: rotate(0deg);
+    color: #C7A987;
+    }
+    50% {
+    transform: rotate(180deg);
+    color: #FBB829;
+    }
+    100% {
+    transform: rotate(360deg);
+    color: #C7A987;
+    }
+    }
+        
+    
+    
 
 .exploreTitle {
     color: white;
