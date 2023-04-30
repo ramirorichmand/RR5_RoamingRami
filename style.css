@@ -133,7 +133,19 @@ a {
     background-color: #C7A987;
 }
 
-
+.exploreTitle h2::before {
+    content: ""; /* create a pseudo-element to sit outside the shape */
+    position: absolute; /* position the pseudo-element outside the shape */
+    top: -4px; /* move it above the shape */
+    left: -4px; /* move it to the left of the shape */
+    right: -4px; /* move it to the right of the shape */
+    bottom: -4px; /* move it below the shape */
+    background-image: linear-gradient(45deg, #000, #C7A987, #000); /* set a gradient for the pseudo-element */
+    background-size: 400%; /* set the background size to four times the size of the pseudo-element */
+    z-index: -1; /* send the pseudo-element to the back */
+    border-radius: inherit; /* inherit the border-radius from the parent element */
+    animation: shimmer 2s infinite; /* create the shimmer effect */
+  }
 
 
 
