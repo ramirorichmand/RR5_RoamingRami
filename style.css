@@ -156,6 +156,8 @@ a {
     }
   }
 
+  /* the z-index property is set to -1 to keep the pseudo-element behind the h2 element. */
+
 
 
 
