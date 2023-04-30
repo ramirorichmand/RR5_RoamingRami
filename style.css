@@ -184,7 +184,7 @@ a {
 }
      */
 
-     .navSearch .fas {
+     /* .navSearch .fas {
         font-size: 2rem;
         color: #C7A987;
         cursor: pointer;
@@ -199,7 +199,7 @@ a {
         100% {
             transform: rotate(360deg);
         }
-    }
+    } */
     
 
 .exploreTitle {
