@@ -135,18 +135,23 @@ a {
 .exploreTitle h2:hover {
     cursor: pointer;
     background-color: #C7A987;
-    animation: shimmer 1s ease-out forwards;
-    box-shadow: 0px 0px 20px #C7A987;
-}
-
-@keyframes shimmer {
+    animation: shimmer 1s infinite;
+  }
+  
+  @keyframes shimmer {
     0% {
-        background-position: left;
+      background-color: #C7A987;
+      color: black;
+    }
+    50% {
+      background-color: black;
+      color: white;
     }
     100% {
-        background-position: right;
+      background-color: #C7A987;
+      color: black;
     }
-}
+  }
 
 
 /* Section1Half */
