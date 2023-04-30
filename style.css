@@ -178,11 +178,12 @@ a {
     font-size: 3rem;
     font-weight: lighter;
     font-family: 'Maven Pro', sans-serif;
-    animation: expand 2s ease-out;
-    animation-fill-mode: forwards;
     white-space: nowrap;
     overflow: hidden;
+    animation: expand 2s ease-out;
+    animation-fill-mode: forwards;
   }
+  
   
   @keyframes expand {
     0% {
