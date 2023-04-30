@@ -96,14 +96,16 @@ a {
     color: #C7A987;
     cursor: pointer;
 }
+
+.navSearch h4 {
+    border-radius: 10px;
+    padding: 5px;
+}
+
 .navSearch .fas {
     font-size: 1.5rem;
     color: #C7A987;
     cursor: pointer;
-}
-.navSearch h4 {
-    border-radius: 10px;
-    padding: 5px;
 }
 
 .exploreTitle {
