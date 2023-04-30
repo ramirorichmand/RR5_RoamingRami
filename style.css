@@ -693,28 +693,22 @@ option {
     margin: 30px;
 }
 
-/* #background-video {
-    object-fit: cover;
-    width: 100%;
-    height: 800px;
-    filter: brightness(70%);
-     border: 1px solid #C7A987; 
-    border: 1px solid rgba(199, 169, 135, 0.3);
-    position: relative;
-    z-index: 0;
-  } */
-
-
 #background-video {
     object-fit: cover;
     width: 100%;
     height: 800px;
     filter: brightness(70%);
+    border: 2px solid rgba(199, 169, 135, 0);
     position: relative;
     z-index: 0;
-  }
-  
-  #background-video::before {
+    transition: border-color 1s ease-in-out;
+}
+
+#background-video:hover {
+    border: 2px solid #C7A987;
+}
+
+#background-video::before {
     content: '';
     position: absolute;
     top: -5px;
@@ -724,34 +718,34 @@ option {
     z-index: -1;
     border-radius: inherit;
     background: radial-gradient(
-      ellipse at center,
-      rgba(199, 169, 135, 0.3) 0%,
-      rgba(255, 255, 255, 0) 80%
+        ellipse at center,
+        rgba(199, 169, 135, 0.3) 0%,
+        rgba(255, 255, 255, 0) 80%
     );
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: opacity 1s ease-in-out;
     animation: glow 2s infinite alternate;
-  }
-  
-  #background-video:hover::before {
+}
+
+#background-video:hover::before {
     opacity: 1;
-  }
-  
-  @keyframes glow {
+}
+
+@keyframes glow {
     0% {
-      box-shadow: 0 0 0 0 rgba(199, 169, 135, 0.3);
+        box-shadow: 0 0 0 0 rgba(199, 169, 135, 0.3);
     }
     50% {
-      box-shadow: 0 0 0 10px rgba(199, 169, 135, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 0 10px rgba(199, 169, 135, 0.3), 0 0 0 20px rgba(255, 255, 255, 0.5);
     }
     100% {
-      box-shadow: 0 0 0 0 rgba(199, 169, 135, 0.3);
+        box-shadow: 0 0 0 0 rgba(199, 169, 135, 0.3);
     }
-  }
+}
 
 
 
-  /* end of Video section */
+/* end of Video section */
 
   .textOverlay h2{
     position: absolute;
