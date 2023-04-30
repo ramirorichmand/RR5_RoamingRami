@@ -147,6 +147,15 @@ a {
     animation: shimmer 2s infinite; /* create the shimmer effect */
   }
 
+  @keyframes shimmer {
+    0% {
+      background-position: 0% 0%; /* start the gradient at the top left */
+    }
+    100% {
+      background-position: 400% 0%; /* end the gradient at the top right */
+    }
+  }
+
 
 
 
