@@ -501,13 +501,8 @@ a {
 
 /* Section 6 */
 
-.listSection h2 {
-    text-decoration-color: #C7A987;
-    text-underline-offset: 4px;
-}
-.listSection h4 {
-    transition: all 0.5s ease;
-}
+
+
 .listSection h4:hover {
     cursor: pointer;
     color: #C7A987;
