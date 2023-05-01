@@ -88,6 +88,8 @@ a {
     margin-top: 2.5rem;
 }
 
+/* below */ 
+
 .navSearch h4 {
 }
 .navSearch h4:hover {
@@ -99,6 +101,8 @@ a {
     border-radius: 10px;
     padding: 5px;
 }
+
+/* up */
 
 .navSearch h4 {
     transition: all 0.5s ease;
