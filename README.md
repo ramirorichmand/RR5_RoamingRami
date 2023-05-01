@@ -8,5 +8,8 @@ Get ready to blast off into a world of sleek design, intergalactic exploration, 
 
 Not e-commerce related
 
-### The site was created using HTML, CSS, and JavaScript.
+Tech Stack: 
+- HTML
+- CSS
+- JavaScript.
 
