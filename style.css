@@ -501,10 +501,6 @@ a {
 
 /* Section 6 */
 
-  .socialIcons a {
-    color: white;
-    font-size: 2rem;
-  }
   
   .socialIcons a:hover {
     color: #C7A987;
