@@ -90,8 +90,6 @@ a {
 
 /* below */ 
 
-.navSearch h4 {
-}
 .navSearch h4:hover {
     color: #C7A987;
     cursor: pointer;
@@ -100,7 +98,7 @@ a {
 .navSearch h4 {
     border-radius: 10px;
     padding: 5px;
-}
+} 
 
 /* up */
 
