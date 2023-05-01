@@ -1,6 +1,6 @@
 # 26/04/2023 RR5_RoamingRami
 
-##  The Challenge
+## 💡 The Challenge
 
 I went full circle and created my own Mini-Project - a ‘Space Themed Landing Page’ inspired by the BNTA AC in December 2022. The difference between the last landing page is that this is not e-commerce related.
 
