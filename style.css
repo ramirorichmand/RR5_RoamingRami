@@ -501,15 +501,6 @@ a {
 
 /* Section 6 */
 
-
-
-  
-  .logoColumn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-  }
   
   .aboutUsColumn,
   .bookingColumn,
