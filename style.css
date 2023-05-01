@@ -502,12 +502,6 @@ a {
 /* Section 6 */
 
   
-  .aboutUsColumn h4:hover,
-  .bookingColumn h4:hover,
-  .socialsColumn h4:hover {
-    cursor: pointer;
-    color: #C7A987;
-  }
   
   .socialIcons {
     display: flex;
