@@ -161,7 +161,7 @@ a {
     font-family: 'Maven Pro', sans-serif;
     white-space: nowrap;
     overflow: hidden;
-    animation: expand 3s ease-out;
+    animation: expand 7s ease-out;
     animation-fill-mode: forwards;
   }
   
