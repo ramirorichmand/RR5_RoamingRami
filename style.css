@@ -502,16 +502,6 @@ a {
 /* Section 6 */
 
   
-  .aboutUsColumn,
-  .bookingColumn,
-  .socialsColumn {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    width: 26%;
-  }
-  
   .aboutUsColumn h2,
   .bookingColumn h2,
   .socialsColumn h2 {
