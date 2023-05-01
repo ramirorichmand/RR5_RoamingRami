@@ -501,11 +501,7 @@ a {
 
 /* Section 6 */
 
-
-.listSection {
-}
 .listSection h2 {
-    text-decoration: underline;
     text-decoration-color: #C7A987;
     text-underline-offset: 4px;
 }
