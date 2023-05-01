@@ -502,12 +502,6 @@ a {
 /* Section 6 */
 
   
-  .aboutUsColumn h4,
-  .bookingColumn h4,
-  .socialsColumn h4 {
-    transition: all 0.5s ease;
-  }
-  
   .aboutUsColumn h4:hover,
   .bookingColumn h4:hover,
   .socialsColumn h4:hover {
