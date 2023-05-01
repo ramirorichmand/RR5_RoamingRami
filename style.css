@@ -503,9 +503,6 @@ a {
 
 
 .listSection {
-    align-items: flex-start;
-    gap: 20px;
-    width: auto;
 }
 .listSection h2 {
     text-decoration: underline;
