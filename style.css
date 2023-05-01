@@ -88,11 +88,6 @@ a {
     margin-top: 2.5rem;
 }
 
-/* below */ 
-
-
-/* up */
-
 .navSearch h4 {
     transition: all 0.5s ease;
     font-weight: lighter;
@@ -502,12 +497,11 @@ a {
     width: 250px;
 }
 
+/* Section 6 beginning */
 
 /* Section 6 */
 
-/* .section6 {
-    color: white;
-    display: flex;
+.section6 {
     justify-content: space-around;
     align-items: center;
     padding-top: 5rem;
@@ -603,7 +597,9 @@ a {
   .socialIcons a:hover {
     color: #C7A987;
   }
-   */
+  
+
+   /* end of stuff */
 
    .section6 {
     color: white;
