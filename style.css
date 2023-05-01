@@ -502,14 +502,6 @@ a {
 /* Section 6 */
 
   
-  .aboutUsColumn h2,
-  .bookingColumn h2,
-  .socialsColumn h2 {
-    text-decoration: underline;
-    text-decoration-color: #C7A987;
-    text-underline-offset: 4px;
-  }
-  
   .aboutUsColumn h4,
   .bookingColumn h4,
   .socialsColumn h4 {
